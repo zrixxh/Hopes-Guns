@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>H✩PE's FiveM Gun Skins</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #00ffe1;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      object-fit: cover;
+      height: 200px;
+    }
+
+    .card-content {
+      padding: 1rem;
+    }
+
+    .card-content h3 {
+      margin: 0 0 0.5rem;
+      color: #00ffe1;
+    }
+
+    .card-content a {
+      color: #fff;
+      background: #00ffe1;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      padding: 1rem;
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>H✩PE's FiveM Gun Skins</h1>
+    <p>Custom gun skins I found and thought were cool 😎</p>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="image.png" alt="Gun Skin Preview" />
+      <div class="card-content">
+        <h3>Diamond Chain M4</h3>
+        <a href="g3wire (2).rpf" download>Download .rpf</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Made with ❤️ by H✩PE
+  </footer>
+</body>
+</html>
